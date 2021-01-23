@@ -1,8 +1,8 @@
 name: calendar_json
-description: A new Flutter package project.
+description: create your own calendar.
 version: 0.0.1
-author:
-homepage:
+author: malikkurosaki<kurosakiblackangel@gmail.com>
+homepage: https://github.com/malikkurosaki/calendar_json
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
