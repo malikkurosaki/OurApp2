@@ -530,3 +530,5 @@ class Coba extends StatelessWidget {
 
 ![sample 2](./sample_image/sample2.png)
 
+malikkurosaki<kurosakiblackangel@gmail.com>
+

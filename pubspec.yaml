@@ -1,7 +1,7 @@
 name: calendar_json
 description: create your own calendar.
 version: 0.0.1
-author: malikkurosaki<kurosakiblackangel@gmail.com>
+# author: malikkurosaki<kurosakiblackangel@gmail.com>
 homepage: https://github.com/malikkurosaki/calendar_json
 
 environment:

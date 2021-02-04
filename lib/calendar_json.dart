@@ -10,7 +10,8 @@ library calendar_json;
 /// calendar json
 class Calendar {
   static json(String dateTime){
-    final kal = DateTime.parse(dateTime);
+    final k = DateTime.parse(dateTime);
+    final kal = DateTime(k.year, k.month, 1);
     final totalHari = DateTime(kal.year, kal.month + 1, 0).day;
     final Map hasil = {};
     var date = 1;
@@ -31,9 +32,9 @@ class Calendar {
       )
     );
     hasil['perMonth'] = ls.expand((element) => element).toList();
-    hasil['year'] = kal.year;
-    hasil['month'] = kal.month;
-    hasil['day'] = kal.day;
+    hasil['year'] = k.year;
+    hasil['month'] = k.month;
+    hasil['day'] = k.day;
     hasil['perWeek'] = ls;
     return hasil;
   }
